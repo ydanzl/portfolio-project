@@ -13,6 +13,7 @@ h1 {
   text-align: center;
   padding: 40px;
   margin: 0;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -24,6 +25,11 @@ h2 {
 
 p {
   font-family: "Playfair Display", serif;
+}
+
+.home-paragraph {
+  text-align: center;
+  border: solid, 1px, black;
 }
 
 .plain-link {
