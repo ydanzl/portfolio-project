@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #9aa3c7;
+  --secondary-color: #998f3b;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  background: var(--primary-color);
+}
+p {
+  font-family: "Playfair Display", serif;
+  background: var(--secondary-color);
+}
