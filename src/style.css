@@ -3,11 +3,13 @@
   --secondary-color: #998f3b;
 }
 
+nav {
+  background-color: var(--primary-color);
+}
+
 h1 {
   font-family: "Montserrat", sans-serif;
-  background: var(--primary-color);
 }
 p {
   font-family: "Playfair Display", serif;
-  background: var(--secondary-color);
 }
