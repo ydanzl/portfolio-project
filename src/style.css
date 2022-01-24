@@ -9,15 +9,29 @@ nav {
 
 h1 {
   font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
   text-align: center;
-  padding: 50px;
+  padding: 40px;
   margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  margin: 20px;
 }
 
 p {
   font-family: "Playfair Display", serif;
 }
 
-.banner {
-  max-width: 1500px;
+.plain-link {
+  text-decoration: none;
+  color: black;
+}
+
+.plain-link:hover {
+  font-weight: 300;
+  color: black;
 }
