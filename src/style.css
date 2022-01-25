@@ -49,6 +49,8 @@ p {
 
 footer {
   background-color: var(--primary-color);
+  margin-top: 50px;
+  padding: 30px;
 }
 
 .footer-text {
