@@ -40,3 +40,12 @@ p {
   font-weight: 300;
   color: black;
 }
+
+footer {
+  background-color: var(--primary-color);
+}
+
+.footer-text {
+  text-align: center;
+  padding: 20px;
+}
