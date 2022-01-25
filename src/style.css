@@ -23,6 +23,12 @@ h2 {
   margin: 20px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 p {
   font-family: "Playfair Display", serif;
 }
@@ -48,4 +54,20 @@ footer {
 .footer-text {
   text-align: center;
   padding: 20px;
+}
+
+.navbar-toggler {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+    padding: 60px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
