@@ -103,11 +103,18 @@ lottie-player.animation {
 @media (max-width: 768px) {
   h1 {
     font-size: 28px;
-    padding: 60px;
+    padding: 30px;
   }
 
   h2 {
     font-size: 18px;
     line-height: 28px;
+  }
+
+  lottie-player.animation {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    max-height: 300px;
   }
 }
