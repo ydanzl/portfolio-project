@@ -37,6 +37,10 @@ p {
   font-family: "Playfair Display", serif;
 }
 
+.active-overwrite {
+  font-weight: 900;
+}
+
 .home-paragraph {
   text-align: center;
 }
