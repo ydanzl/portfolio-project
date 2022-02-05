@@ -87,12 +87,17 @@ footer {
 }
 
 img.about-img {
-  max-width: 400px;
+  max-width: 350px;
 }
 
 div.about-text {
   text-align: right;
   padding-left: 250px;
+}
+
+lottie-player.animation {
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
