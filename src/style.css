@@ -55,19 +55,44 @@ p {
   color: black;
 }
 
+.visible-link {
+  color: black;
+}
+
+.visible-link:hover {
+  color: var(--primary-color);
+}
+
 footer {
   background-color: var(--primary-color);
   margin-top: 50px;
   padding: 30px;
+  padding-bottom: 0;
 }
 
 .footer-text {
   text-align: center;
   padding: 20px;
+  padding-top: 10px;
+}
+
+.footer-icons {
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 0;
 }
 
 .navbar-toggler {
   margin-right: 0;
+}
+
+img.about-img {
+  max-width: 400px;
+}
+
+div.about-text {
+  text-align: right;
+  padding-left: 250px;
 }
 
 @media (max-width: 768px) {

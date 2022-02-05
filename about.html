@@ -35,7 +35,7 @@
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">About Yasmin Danzl</a>
+        <a class="navbar-brand" href="index.html">Yasmin Danzl</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -52,13 +52,11 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav">
-            <a class="nav-link active-overwrite" aria-current="page" href="#"
-              >Home</a
-            >
-            <a class="nav-link" href="#">Coding</a>
-            <a class="nav-link" href="#">Events / Projects</a>
-            <a class="nav-link" href="#">Personal Blog</a>
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="coding.html">Coding</a>
+            <a class="nav-link" href="events.html">Events / Projects</a>
+            <a class="nav-link" href="blog.html">Personal Blog</a>
+            <a class="nav-link active-overwrite" href="about.html">About</a>
           </div>
         </div>
       </div>
@@ -66,18 +64,43 @@
 
     <h1 class="title">Yasmin Danzl</h1>
 
-    <footer>
-      <div class="footer-text">
-        This website was coded using
-        <a href="https://getbootstrap.com/" target="blank" class="plain-link">
-          bootstrap </a
-        ><br />
-        by <a href="#" class="plain-link">Yasmin Danzl</a> <br />
-        educated with
-        <a href="https://www.shecodes.io/" target="blank" class="plain-link">
-          SheCodes
-        </a>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 about-text">
+          <h2 class="text-end me-0">About Me</h2>
+          <p class="d-block">
+            Hi everyone! <br />
+            My name is Yasmin and I'm from Vienna. I recently started to become
+            a front-end developer with the help of
+            <a
+              href="https://www.shecodes.io"
+              target="_blank"
+              class="visible-link"
+              >SheCodes</a
+            >. Besides that I'm working in an IT-Company which operates in
+            Event-Business. <br /><br />
+            In my free time I love to enjoy nature on my hikes, get creative
+            with vegan cooking and pet every cat that crosses my way.
+            <br /><br />
+            I'm happy you found my page and that you are interested in what I'm
+            doing. If you want to work with me in terms of Coding or
+            Eventmanagement feel free to contact me
+            <a href="mailto:yassi.d@hotmail.com" class="visible-link"
+              >via mail</a
+            >. If you still want to find out more about me, check out my
+            <a href="blog.html" target="_blank" class="visible-link"
+              >personal blog</a
+            >.
+          </p>
+        </div>
+        <div class="col-6">
+          <img class="about-img" src="media/about-picture.jpg" />
+        </div>
       </div>
+    </div>
+
+    <footer>
+      <h3 class="text-center pb-3">Let's get connected!</h3>
       <a
         href="mailto:yassi.d@hotmail.com"
         class="btn btn-outline-dark mx-auto d-block"
@@ -85,7 +108,7 @@
         >Contact me
       </a>
 
-      <div class="footer-text">
+      <div class="footer-icons">
         <a
           href="https://www.instagram.com/abenteuer_mit_katze/"
           class="plain-link fs-2"
@@ -98,6 +121,17 @@
           target="blank"
           ><i class="fab fa-linkedin"></i
         ></a>
+      </div>
+      <div class="footer-text">
+        This website was coded using
+        <a href="https://getbootstrap.com/" target="blank" class="plain-link">
+          bootstrap </a
+        ><br />
+        by <a href="#" class="plain-link">Yasmin Danzl</a> <br />
+        educated with
+        <a href="https://www.shecodes.io/" target="blank" class="plain-link">
+          SheCodes
+        </a>
       </div>
     </footer>
   </body>
