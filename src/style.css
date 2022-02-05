@@ -102,18 +102,18 @@ lottie-player.animation {
 
 .content-img {
   width: 450px;
-  height: 450px;
+  height: 358px;
   object-fit: scale-down;
   border: 5px solid var(--primary-color);
   border-radius: 4px;
 }
 
 div.text-left {
-  padding-left: 210px;
+  padding-left: 150px;
 }
 
 div.text-right {
-  padding-right: 210px;
+  padding-right: 150px;
 }
 
 h3.content {
