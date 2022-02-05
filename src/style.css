@@ -100,6 +100,30 @@ lottie-player.animation {
   margin: 0 auto;
 }
 
+.content-img {
+  width: 450px;
+  height: 450px;
+  object-fit: scale-down;
+  border: 5px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+div.text-left {
+  padding-left: 210px;
+}
+
+div.text-right {
+  padding-right: 210px;
+}
+
+h3.content {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  margin: 20px;
+  font-size: 24px;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 28px;
