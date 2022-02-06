@@ -97,10 +97,10 @@ lottie-player.animation {
 }
 
 .content-img {
-  width: 450px;
+  width: 452px;
   height: 358px;
   object-fit: scale-down;
-  border: 5px solid var(--primary-color);
+  border: 3px solid var(--primary-color);
   border-radius: 4px;
 }
 
@@ -120,7 +120,7 @@ h3.content {
   font-size: 24px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   h1 {
     font-size: 28px;
     padding: 30px;
